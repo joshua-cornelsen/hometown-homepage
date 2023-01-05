@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    background: #EAE9D7;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #211E0A;
+}
+
+#hero {
+    background-image: url("images/muskegon-state-park.jpeg");
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#title {
+    font-family: 'Courgette', cursive;
+    font-size: 5.5em;
+    color: #13130D;
+}
+
+#subtitle {
+    font-size: 2.1em;
+    color: #13130D;
+}
+
+.activity-heading {
+    font-family: 'Courgette', cursive;
+    font-size: 3em;
+    padding: 50px 0;
+    background: #1D3154;
+    color: #EAE9D7;
+}
+
+.activity-section {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding-top: 50px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.activity {
+    width: 250px;
+    padding-bottom: 25px;
+}
+
+.activity-title {
+    font-family: 'Courgette', cursive;
+    font-size: 1.2em;
+
+}
+
+.guide {
+    display: flex;
+    width: 720px;
+    height: auto;
+    margin: 30px auto;
+    padding: 20px;
+    background: #1D3154;
+    border-radius: 25px;
+    color: #EAE9D7;
+}
+
+.guide-img {
+    margin: auto 30px;
+}
+
+.guide-info {
+    width: 400px;
+    margin: auto 0;
+
+}
+
+.guide-text {
+    font-family: 'Courgette', cursive;
+    font-size: 1.5em
+}
